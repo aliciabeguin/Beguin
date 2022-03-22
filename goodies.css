@@ -1,0 +1,18 @@
+article{
+	text-align: center;
+
+}
+
+.listeGoodies{
+	background-color: grey;
+	margin: 3em;
+	padding: 1em;
+}
+
+.goody{
+	width: 30%;
+	height: 10em;
+	background-color: lightgrey;
+	display: inline-block;
+	margin : 0.5em;
+}

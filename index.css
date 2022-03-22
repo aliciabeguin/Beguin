@@ -1,0 +1,66 @@
+article{
+	text-align: center;
+}
+
+article>div{
+	height: auto;
+	width: 22%;
+	margin-top: 1em;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    transition: transform 2s;
+    vertical-align: top;
+}
+
+article>div:hover{
+	transform: scale(1.2);
+
+}
+
+.orques{
+	background-image: url("images/orques.jpg");
+	background-size: cover;
+
+}
+
+.dauphins{
+	background-image: url("images/dauphins.jpg");
+	background-size: cover;
+
+
+}
+
+.ocean{
+	background-image: url("images/ocean.jpg");
+	background-size: cover;
+}
+
+.riviere{
+	background-image: url("images/riviere.jpg");
+	background-size: cover;
+}
+
+.titre{
+	text-align: left;
+	font-size: 3em;
+	margin-bottom: 1em;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.description{
+	background : rgba(255, 255, 255, 0.5);
+	padding: 1em;
+	color: black;
+}
+
+.animauxPresents{
+	background-color: beige;
+	font-size: 2em;
+}
+
+.capacite{
+	background-color: beige;
+	font-size: 2em;
+}

@@ -1,0 +1,62 @@
+html{
+	background-color: steelblue;
+	padding: 0;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	position: sticky;
+	top: 0;
+}
+
+.firstHeader{
+	font-size: 3em; 
+	background-color: lightskyblue; 
+	height: 3em; 
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.firstHeader>a{
+	text-decoration: none;
+	color: black;
+}
+
+.account{
+	width: 20%;
+	height: 100%;
+	background-color: slateblue;
+	float: right;
+	top: 0;
+}
+
+.secondHeader{
+	text-align: center;
+}
+
+.secondHeader>a{
+	display: inline-block;
+	width: 30%;
+	font-size: 2.5em;
+	background-color: aliceblue;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	text-decoration: none;
+	color: black;
+}
+
+.title{
+	font-size: 8em;
+	color: darkviolet;
+}
+
+footer{
+	color: white;
+    background-color: black;
+    text-align: center;
+    height: 4em;
+    margin-top: 1em;
+}
