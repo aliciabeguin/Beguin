@@ -10,7 +10,7 @@
 	<header>
 		
 		<div class = "firstHeader">
-			<a href=".">
+			<a href="index.php">
 				SubMarina
 			</a>
 			<div class="sideHeader">	

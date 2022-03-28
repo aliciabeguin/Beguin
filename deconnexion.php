@@ -7,6 +7,7 @@ include("rappel.connection.inc.php");
 $_SESSION["userLogin"] = "";
 session_unset();
 
-header("Location : index.php");
+header('Location: ./index.php');
+exit();
 
 ?>
