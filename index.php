@@ -7,18 +7,24 @@
 	<title>zoo</title>
 </head>
 <body>
-
 	<header>
 		
 		<div class = "firstHeader">
 			<a href=".">
 				SubMarina
 			</a>
-			<a href="connexion.php">
-				<div class = "account">
-					Connexion
-				</div>
-			</a>
+			<div class="sideHeader">	
+				<a href="connexion.php">
+					<div class = "account">
+						Connexion
+					</div>
+				</a>
+				<a href="ticket.php">
+					<div class = "tickets">
+						Tickets
+					</div>
+				</a>
+			</div>
 		</div>
 
 		<div class="secondHeader">
