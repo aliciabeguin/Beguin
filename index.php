@@ -71,7 +71,7 @@
 			<div class="titre">Océan</div>
 			<div class="description">Un océan est souvent défini, en géographie, comme une vaste étendue d'eau salée comprise entre deux continents. En fait, il s'agit plutôt d'un volume, dont l'eau est en permanence brassée par des courants marins. Approximativement 70,8 % de la surface de la Terre est recouverte par l'Océan mondial, communément divisé en cinq océans — Pacifique, Atlantique, Arctique, Austral, Indien — et en plusieurs dizaines de mers. Avec une profondeur moyenne de 3 682 mètres, les océans représentent 96 % du volume biosphérique.
 			<br>
-			L'océan mondial, qui abrite la majorité des espèces vivantes sur Terre (50 à 80 % selon les estimations) génère plus de 60 % des services écosystémiques qui nous permettent de vivre, à commencer par la production de la majeure partie de l'oxygène que nous respirons. Il absorbe environ 30 % des émissions de CO2 générées par l'humanité, ce qui provoque son acidification. 
+			L'océan mondial, qui abrite la majorité des espèces vivantes sur Terre (50 à 80 % selon les estimations) génère plus de 60 % des services écosystémiques qui nous permettent de vivre, à commencer par la production de la majeure partie de l'oxygène que nous respirons. Il absorbe environ 30 % des émissions de CO2 générées par l'humanité, ce qui provoque son acidification.
 			</div>
 			<div class="animauxPresents">Population : 150</div>
 			<div class="capacite">Capacité : 200</div>
@@ -90,7 +90,7 @@
 	</article>
 
 	<footer>
-		22 rue de la Mediterranée, 75000 Paris
+		22 rue de la Mediterranée, 75000 Paris DUNCAN
 
 	</footer>
 
