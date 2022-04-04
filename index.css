@@ -63,3 +63,16 @@ article>div:hover{
 	background-color: beige;
 	font-size: 2em;
 }
+
+#ticket{
+	font-size: 2em;
+	background-color: aliceblue;
+	padding: 1em;
+	margin: 1em;
+	width: 6em;
+	border-radius: 3em;
+	box-shadow: 0.25em 0.25em 0 0 black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

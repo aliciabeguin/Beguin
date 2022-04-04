@@ -8,45 +8,7 @@
 </head>
 <body>
 
-	<header>
-		
-		<div class = "firstHeader">
-			<a href="index.php">
-				SubMarina
-			</a>
-			<div class="sideHeader">	
-				<a href="connexion.php">
-					<div class = "account">
-						Connexion
-					</div>
-				</a>
-				<a href="ticket.php">
-					<div class = "tickets">
-						Tickets
-					</div>
-				</a>
-			</div>
-		</div>
-
-		<div class="secondHeader">
-			<a href="spectacles.php">
-				<div>
-					Spectacles
-				</div>
-			</a>
-			<a href="goodies.php">
-				<div>
-					Goodies
-				</div>
-			</a>
-			<a href="tarifs.php">
-				<div>
-					Tarifs
-				</div>
-			</a>
-		</div>
-
-	</header>
+	<?php include("header.php"); ?>
 
 	<article>
 		<div class="title">

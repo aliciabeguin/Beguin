@@ -30,7 +30,6 @@ if (!$result) {
 	exit();
 }
 
-
 $rowCount = $result->rowCount();
 
 if($rowCount == 0){
@@ -40,7 +39,5 @@ if($rowCount == 0){
 	session_start();
 	$_SESSION['id'] = $result->fetch(PDO::FETCH_ASSOC)["id"];
 }
-
-
 
 ?>

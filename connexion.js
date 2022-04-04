@@ -34,6 +34,7 @@ function onclick_connexion(){
 			var connexion = document.getElementById("connexion");
 			connexion.innerText = "Pas connecté";
 		}
+		document.location.href = "index.php";
 	});
 }
 

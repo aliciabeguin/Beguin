@@ -7,46 +7,7 @@
 	<title>zoo</title>
 </head>
 <body>
-	<header>
-		
-		<div class = "firstHeader">
-			<a href="index.php">
-				SubMarina
-			</a>
-			<div class="sideHeader">	
-				<a href="connexion.php">
-					<div class = "account">
-						Connexion
-					</div>
-				</a>
-				<a href="ticket.php">
-					<div class = "tickets">
-						Tickets
-					</div>
-				</a>
-			</div>
-		</div>
-
-		<div class="secondHeader">
-			<a href="spectacles.php">
-				<div>
-					Spectacles
-				</div>
-			</a>
-			<a href="goodies.php">
-				<div>
-					Goodies
-				</div>
-			</a>
-			<a href="tarifs.php">
-				<div>
-					Tarifs
-				</div>
-			</a>
-		</div>
-
-	</header>
-
+	<?php include("header.php"); ?>
 	<article>
 		<div class="orques">
 			<div class="titre">Orques</div>
@@ -87,6 +48,18 @@
 			<div class="animauxPresents">Population : 200</div>
 			<div class="capacite">Capacité : 210</div>
 		</div>
+		<?php 
+			if(isset($_SESSION["id"])){
+		?>
+		<a href="ticket.php" id="ticket">
+			<div class="ticket">
+				Ticket
+			</div>
+		</a>
+		<?php
+			}
+		?>
+		
 	</article>
 
 	<footer>

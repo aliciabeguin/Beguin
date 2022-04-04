@@ -21,6 +21,12 @@ header{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+#icone{
+	display: inline-block;
+	vertical-align: top;
+	height: 3em;
+}
+
 a{
 	text-decoration: none;
 	color: black;
@@ -61,5 +67,4 @@ footer{
     margin-top: 1em;
     position: absolute;
     width: 100%;
-    bottom: 0;
 }
