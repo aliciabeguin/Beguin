@@ -63,7 +63,7 @@
 	</article>
 
 	<footer>
-		22 rue de la Mediterranée, 75000 Paris 
+		22 rue de la Mediterranée, 75000 Paris DUncan 
 
 	</footer>
 
