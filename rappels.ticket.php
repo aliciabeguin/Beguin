@@ -1,5 +1,7 @@
 <?php 
 
+session_start();
+
 include("rappel.connection.inc.php");
 // Connection information
 
@@ -20,8 +22,8 @@ $priorite = $pdo->quote($_REQUEST['priorite']);
 $sujet = $pdo->quote($_REQUEST['sujet']);
 $description = $pdo->quote($_REQUEST['description']);
 $secteur = $pdo->quote($_REQUEST['secteur']);
-$login = $_SESSION['email'];
-$statut = "encours";
+$login = "'".$_SESSION['email']."'";
+$statut = "'encours'";
 
 $myQuery = "INSERT INTO ticket (priorite, sujet, description, secteur, login, statut) VALUES ($priorite, $sujet, $description, $secteur, $login, $statut)";
 

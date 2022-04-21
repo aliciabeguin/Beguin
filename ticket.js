@@ -1,6 +1,6 @@
 function ticket(priorite, sujet, description, secteur){
 	var request = new XMLHttpRequest();
-	request.open("get", "rappels.ticket.php?priorite="+priorite+"&sujet="+sujet+"&description"+description+"&secteur"+secteur);
+	request.open("get", "rappels.ticket.php?priorite="+priorite+"&sujet="+sujet+"&description="+description+"&secteur="+secteur);
 	request.send();
 	var promise = new Promise(function(resolve){
 		request.onreadystatechange = function(){

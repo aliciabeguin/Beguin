@@ -36,25 +36,27 @@ if (!$result) {
 $rowCount = $result->rowCount();
 
 if($rowCount > 0){
-	echo "Déjà inscrit";
+	exit("deja_inscrit");
+}else if($pseudo == "" || $nom == "" || $prenom == "" || $email == "" || $mdp == "" || $vmdp == ""){
+	echo("champs_incomplets");
 }else if($vmdp != $mdp){
-	echo "Mauvaise combinaison mdp";
+	echo("vmdp_mauvais");
 }else{
-	$myQuery2 = "INSERT INTO `user` (pseudo, nom, prenom, email, mdp) VALUES ($pseudo, $nom, $prenom, $email, $mdp);"
+	$myQuery2 = "INSERT INTO `user` (pseudo, nom, prenom, email, mdp) VALUES ($pseudo, $nom, $prenom, $email, $mdp);";
 	$res = $pdo->query($myQuery2);
 	if(!$res){
-		echo("erreur insert");
+		echo("erreur_insert");
 		print_r($myQuery2);
 		exit();
 	}else{
 		$myQuery3 = "SELECT * FROM `user` WHERE email = $email;";
 		$result2 = $pdo->query($myQuery3);
 		if (!$result2) {
-			echo "Impossible to execute query";
+			echo("erreur_query");
 			print_r($myQuery3);
 			exit();
 		}else{
-			echo("Inscrit");
+			echo("inscrit");
 			session_start();
 			$_SESSION['id'] = $result2->fetch(PDO::FETCH_ASSOC)["id"];	
 		}

@@ -34,7 +34,7 @@
 				<input type="password" class="form-control" id="mdp" placeholder="Mot de passe" name="mdp">
 			</div>
 			<div class="form-group">
-				<label for="mdp">Vérification mot de passe</label>
+				<label for="vmdp">Vérification mot de passe</label>
 				<input type="password" class="form-control" id="vmdp" placeholder="Mot de passe" name="vmdp">
 			</div>
 			<button type="button" class="btn btn-primary" id="bouton_inscription">Inscription</button>

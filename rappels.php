@@ -37,7 +37,10 @@ if($rowCount == 0){
 }else{
 	echo "Connecté";
 	session_start();
-	$_SESSION['id'] = $result->fetch(PDO::FETCH_ASSOC)["id"];
+	$fetch = $result->fetch(PDO::FETCH_ASSOC);
+	$_SESSION["id"] = $fetch["id"];
+	$_SESSION['email'] = $fetch["email"];
+
 }
 
 ?>

@@ -1,0 +1,23 @@
+table{
+	display: block ruby;
+	text-align: center;
+	font-size: 1.3em;
+	margin: 2em;
+	padding: 2em;
+	border-collapse: collapse;
+}
+
+tr:nth-child(even) {background-color: whitesmoke;}
+tr:nth-child(odd) {background-color: darkgrey;}
+
+tr{
+	padding: 1em;
+}
+
+td, th{
+	padding: 1em;
+}
+
+th{
+	background-color: grey;
+}

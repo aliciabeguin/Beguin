@@ -30,11 +30,11 @@ function onclick_connexion(){
 		if(connecte){
 			var connexion = document.getElementById("connexion");
 			connexion.innerText = "Connecté";
+			document.location.href = "index.php";
 		}else{
 			var connexion = document.getElementById("connexion");
-			connexion.innerText = "Pas connecté";
+			connexion.innerText = "Identifiant ou Mot de Passe Incorrecte";
 		}
-		document.location.href = "index.php";
 	});
 }
 
