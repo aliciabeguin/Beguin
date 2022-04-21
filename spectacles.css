@@ -9,10 +9,56 @@ article{
 	padding: 1em;
 }
 
-.spectacle{
+.spectacleOrque{
+	background-image: url("images/spectacleOrque.webp");
 	width: 80%;
-	height: 10em;
+	height: 15em;
 	background-color: lightgrey;
 	display: inline-block;
 	margin : 0.5em;
+
+}
+.spectacleDauphin{
+	background-image: url("images/spectacleDauphin.webp");
+	width: 80%;
+	height: 15em;
+	background-color: lightgrey;
+	display: inline-block;
+	margin : 0.5em;
+
+}
+.spectaclePinguins{
+	background-image: url("images/spectaclePinguins.webp");
+	width: 80%;
+	height: 15em;
+	background-color: lightgrey;
+	display: inline-block;
+	margin : 0.5em;
+
+}
+.place{
+	text-align: left;
+	font-size: 2em;
+}
+.tarifs{
+	text-align: left;
+	font-size: 2em;
+}
+.titre{
+	text-align: left;
+	margin: 0.5em ;
+}
+.description{
+	text-align: left;
+	margin: 0.5em;
+}
+.bb{
+	background-color: cornsilk;
+	border: none;
+	border-radius: 0.5em;
+	font-size: 1em;
+	margin-top: 1em;
+	padding: 0.5em;
+	width: 30%;
+	margin-left: 0.5em;
 }

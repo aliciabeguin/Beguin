@@ -16,16 +16,37 @@
 		</div>
 
 		<div class="listeSpectacle">
-			<div class="spectacle">
-				
+			<div class="spectacleOrque">
+				<div class="titre">Spectacles des orques</div>
+				<div class="description">
+					Venez nombreux voir notre spectacle d'orques 
+				</div>
+				<div class="bb">
+					<div class="place">Place restante : 4</div>
+					<div class="tarifs">Tarifs : 6 €</div>
+				</div>
 			</div>
 
-			<div class="spectacle">
-				
+			<div class="spectacleDauphin">
+				<div class="titre">Spectacles des dauphins</div>
+				<div class="description">
+					Venez nombreux voir notre spectacle de dauphins
+				</div>
+				<div class="bb">
+					<div class="place">Place restante : 4</div>
+					<div class="tarifs">Tarifs : 6 €</div>
+				</div>				
 			</div>
 			
-			<div class="spectacle">
-				
+			<div class="spectaclePinguins">
+				<div class="titre">Spectacles des pinguins</div>
+				<div class="description">
+					Venez nombreux voir notre spectacle de pinguins
+				</div>
+				<div class="bb">
+					<div class="place">Place restante : 4</div>
+					<div class="tarifs">Tarifs : 6 €</div>
+				</div>
 			</div>
 
 		</div>
