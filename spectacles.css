@@ -3,14 +3,14 @@ article{
 
 }
 img{
-	max-width : 100%;
+	max-width : 50%;
 	height : 15em;
-	margin-top: -10.1em;
-
+	display: inline-block;
+	margin-top: 0%;
 }
 
 
-.listeSpectacle{z
+.listeSpectacle{
 	background-color: grey;
 	margin: 1em;
 	padding: 1em;
@@ -38,7 +38,11 @@ img{
 	background-color: lightgrey;
 	display: inline-block;
 	margin : 0.5em;
-
+}
+.groupe{
+	display: inline-block;
+	top: -4em;
+	position: relative;
 }
 .place{
 	text-align: left;
@@ -63,6 +67,5 @@ img{
 	font-size: 1em;
 	margin-top: 1em;
 	padding: 0.5em;
-	width: 30%;
 	margin-left: 0.5em;
 }
