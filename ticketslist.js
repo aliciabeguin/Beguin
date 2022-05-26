@@ -2,7 +2,7 @@ window.addEventListener("load", function(){
 	var bouton_ticket = document.getElementsByClassName("bouton_ticket");
 	var longueur = bouton_ticket.length;
 	for(var i = 0; i<longueur; i++){
-		bouton_ticket.addEventListener("click", onclick_update_ticket);
+		bouton_ticket[i].addEventListener("click", onclick_update_ticket);
 	}
 })
 

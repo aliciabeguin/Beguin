@@ -17,7 +17,7 @@ if (!$pdo) {
 }
 
 $email = $pdo->quote($_REQUEST['email']);
-$mdp = $pdo->quote($_REQUEST['mdp']);
+$mdp = $pdo->quote(hash('sha256',$_REQUEST['mdp']));
 
 $myQuery = "SELECT * FROM `user` WHERE email = $email AND mdp = $mdp;";
 

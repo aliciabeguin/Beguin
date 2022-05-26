@@ -22,6 +22,9 @@
 		<a href="ticketslist.php">
 				<div class = "tickets">Liste tickets</div> 
 		</a>
+		<a href="myTicketsList.php">
+			<div class = "tickets">Mes tickets</div> 
+		</a>
 		<?php } ?>
 	</div>
 </div>

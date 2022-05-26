@@ -49,7 +49,6 @@
 					<th>Secteur</th>
 					<th>Login</th>
 					<th>Satut</th>
-					<th>Changer statut</th>
 				</tr>
 				<?php
 				for($i = 0; $i < $rowCount; $i++){  
@@ -63,18 +62,8 @@
 					<td> <?php $secteur = $arr["secteur"]; echo($secteur); ?> </td>
 					<td> <?php $login = $arr["login"]; echo($login); ?> </td>
 					<td> <?php $statut = $arr["statut"]; echo($statut); ?> </td>
-					<td>
-					    <select id="statut" name="statut">
-					      <option value="encours">En cours</option>
-					      <option value="resolu">Résolu</option>
-					    </select>
-					    <button type="button" class="btn btn-primary" class="bouton_ticket">Envoyer</button>
-					</td>
 				</tr>
-				<?php
-				}
-
-				?>
+				<?php } ?>
 			</table>
 		</div>
 

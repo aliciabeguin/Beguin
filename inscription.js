@@ -5,7 +5,7 @@ function inscription(pseudo, nom, prenom, email, mdp, vmdp){
 	var promise = new Promise(function(resolve){
 		request.onreadystatechange = function(){
 			if(request.readyState == XMLHttpRequest.DONE){
-				resolve(request.response == "Inscrit");
+				resolve(request.response == "inscrit");
 			}
 		};
 	});

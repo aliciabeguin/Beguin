@@ -19,9 +19,8 @@ $pseudo = $pdo->quote($_REQUEST['pseudo']);
 $nom = $pdo->quote($_REQUEST['nom']);
 $prenom = $pdo->quote($_REQUEST['prenom']);
 $email = $pdo->quote($_REQUEST['email']);
-$mdp = $pdo->quote($_REQUEST['mdp']);
-$vmdp = $pdo->quote($_REQUEST['vmdp']);
-
+$mdp = $pdo->quote(hash('sha256',$_REQUEST['mdp']));
+$vmdp = $pdo->quote(hash('sha256',$_REQUEST['vmdp']));
 
 $myQuery = "SELECT * FROM `user` WHERE email = $email;";
 
