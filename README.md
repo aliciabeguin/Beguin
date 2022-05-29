@@ -17,6 +17,10 @@ Entre 8h et 17h, c'est l'image du dauphin, entre 17h et 21h c'est le lamantin, e
 Adresse du site sur always data :
 [janinayaya.alwaysdata.net](http://janinayaya.alwaysdata.net)
 
+## Charte Graphique
+
+La [charte graphique](Charte graphique.pdf) de notre site
+
 ## Tests performances et sécurité
 
 Voir pdf [site_test.pdf](site_tests.pdf)
