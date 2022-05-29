@@ -8,3 +8,7 @@ Adresse du site sur always data :
 ## Tests performances et sécurité
 
 Voir pdf [site_test.pdf](site_tests.pdf)
+
+## Schéma BDD
+
+Le schéma de la [base de données](schema_bdd.png)
