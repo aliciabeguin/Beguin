@@ -19,7 +19,7 @@ Adresse du site sur always data :
 
 ## Charte Graphique
 
-La [charte graphique](Charte graphique.pdf) de notre site
+La [charte graphique](Charte_graphique.pdf) de notre site
 
 ## Tests performances et sécurité
 
