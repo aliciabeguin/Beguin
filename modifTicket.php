@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css"/>
   <link rel="stylesheet" href="inscription.css"/>
-  <script type="text/javascript" src="ticket.js"></script>
+  <script type="text/javascript" src="myTicketsList.js"></script>
   <title>zoo</title>
 </head>
 <body>
@@ -22,6 +22,7 @@
   <article>
     
 <form>
+  <input type="text" id="id" value="<?= $id ?>" style="display:none;">
   <div class="form-group">
     <label for="priorite">Priorité</label>
     <select id="priorite" name="priorite">
@@ -72,8 +73,8 @@
       }
       setSecteur();
     </script>
-  <button type="button" class="btn btn-primary" id="bouton_ticket">Envoyer</button>
-  <div id="envoye"></div>
+  <button type="button" class="btn btn-primary" id="bouton_myticket">Envoyer</button>
+  <div id="confirm"></div>
 </form>
   </article>
 
