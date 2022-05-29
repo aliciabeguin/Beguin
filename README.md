@@ -17,6 +17,14 @@ Entre 8h et 17h, c'est l'image du dauphin, entre 17h et 21h c'est le lamantin, e
 Adresse du site sur always data :
 [janinayaya.alwaysdata.net](http://janinayaya.alwaysdata.net)
 
+## Installation
+
+Pour installer le site sur votre machine :
+- cloner le repo
+- initialiser la base de données en important le fichier [zoo.sql](zoo.sql)
+- modifier le contenu du fichier [rappel.connexion.inc.php](rappel.connexion.inc.php) en complétant les champs
+- lancer le serveur php
+
 ## Charte Graphique
 
 La [charte graphique](Charte_graphique.pdf) de notre site
