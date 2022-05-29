@@ -45,4 +45,9 @@
 			Tarifs
 		</div>
 	</a>
+	<a href="wordpress/index.php">
+		<div>
+			Wordpress
+		</div>
+	</a>
 </div>
