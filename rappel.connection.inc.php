@@ -1,9 +1,19 @@
 <?php  
 
-$DB_host = "localhost";
-$DB_login = "janina";
-$DB_pass = "26ALICIA11@a";
-$DB_db = "zoo";
+
+//A COMPLETER
+//host name 
+$DB_host = "";
+//login
+$DB_login = "";
+//password
+$DB_pass = "";
+//database name
+$DB_db = "";
+
+
+
+
 $DB_dsn = "mysql:host=$DB_host;dbname=$DB_db";
 
 
