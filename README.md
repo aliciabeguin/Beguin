@@ -4,7 +4,7 @@
 
 Nous avons réslisé un site sur un zoo sous-marin qui permet de gérer les incidents.
 Dans l'onglet Connexion en haut à droite, on peut se connecter, s'inscrire ou se déconnecter.
-Les mots de passe des utilisateurs sont encodés avec SHA256.
+Les mots de passe des utilisateurs sont hashés avec SHA256.
 Les personnes inscrites peuvent créer et modifier leurs tickets, mais aussi modifier leurs statut. En revanche, ils ne peuvent pas modifier les tickets des autres utilisateurs.
 
 Il y a quatre onglets : spectacles, goodies, tarifs et wordpress.
